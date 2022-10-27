@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.white{
+    color: white;
+}
+.bckgrount{
+   background-image: url(./main-screen__bgc.png);
+   background-size: cover;
+   width: 100%;
+}
+.contener_navbar{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    /* position: fixed;
+    width: 100%; */
+}
+
+.min_navbar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_navbar ul{
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+}
+.menu_navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.button_Зайти {
+ padding: 10px 30px;
+ font-size: 14px;
+ border-radius: 50px;
+ border: none;
+ color: white;
+ background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+.logotip_navbar{
+    padding-right: 200px;
+}
+/* <!-- -----------perviy kurs --> */
+.contener_pervi_curs{
+ display: flex;
+ justify-content: center;
+ padding-bottom: 150px;
+}
+.min_pervi_curs{
+    width: 67%;
+}   
+.pervi_curs{
+    width: 80%;
+    padding-top: 135px;
+}
+.text_pervi_curs{
+    padding-bottom: 40px;
+}
+.h1_Первый_курс{
+   font-size: 43px;
+   line-height: 60px;
+  
+
+}
+/* div */
+.data{
+    width: 75px;
+    background-color: #121212;
+    text-align: center;
+}
+.data_pervi_curs{
+ display: flex;
+ gap: 23px;
+}
+/* -+- */
+.h3_18{
+    padding-top: 20px;
+    font-size: 25px;
+    line-height: 40 px;
+}
+.p_Дней{
+  font-size: 11px;
+  color: #686868;  
+  padding-bottom: 20px; 
+}
+/* <!-- ------заказ курса---- --> */
+.contener_заказ{
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+}
+.min_заказ{
+    width: 67%;
+    display: flex;
+    padding: 30px 0px;
+    gap: 50PX;
+}
+.button_заказ_курса{
+    padding: 9px 28px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+    border: none;
+    color: white;
+}
+.chst2{
+    display: flex;
+    gap:20px;
+}
+.uchenikov_uspeshno{
+    color: #686868;  
+    font-size: 13px;
+}
+.sifri{
+    font-size: 12px;
+    color: white;
+}
+.p_1{
+    padding-bottom: 10px;
+}
+.p_2bootom{
+    padding-top: 10px;
+}
+
+/* --------------chst3 -------*/
+.chst3{
+    width: 50%;
+}
+/* potcent */
+.potcent{
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+}
+.svet_protcent{
+    width: 65%;
+    padding: 2px 0px;
+    border-radius: 8px 0px 0px 8px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+.zarabotka{
+    display: flex;
+    gap: 10px;
+}
+.sena{
+    display: flex;
+    justify-content: space-between;
+}
+.pdding_zarabotka{
+    padding-bottom: 5px;
+}
+.pdding_sena{
+    padding-top: 5px;
+}
+
+/* <!-------------- div chst 3 ---------> */
+.bgc{
+    background-image: url(./bgc.png);
+   background-size: cover;
+   width: 100%;
+}
+.contener_chem{
+    display: flex;
+    justify-content: center;
+}
+.min_chen{
+width: 67%;
+}
+.contener_blok_chem{
+    padding-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.blok{
+    width: 340px ;
+    height: 340px;
+    border: 20px solid #7C6AFA;
+}
+.blok img{
+   padding-top: 50px;
+}
+.chem_mi_zanimaensya{
+    color: white;
+    width: 47%;
+}
+.h2_Чем_мы{
+    padding-top: 57px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.p_Lorem_ipsum{
+    font-size: 12px;
+    padding-top: 40px;
+}
+/* ---------------- -----------*/
+.contener_bistriy{
+    padding-top:150px ;
+}
+.bistriy_strt{
+ display: flex;
+ align-items: center;
+}
+.right_text{
+    color: white;
+}
+.h2_stsrt{
+    padding-left: 40px;
+    font-size: 40px;
+}
+.Больше{
+    width: 40%;
+}
+.p_Больше{
+    color: white;
+}
+.itogi_i_protseni{
+   display: flex;
+   align-items: center;
+   padding-bottom:25px;
+}
+._100{
+    width: 25%;
+    padding-top: 70px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+._75{
+    width: 25%;
+    padding-top: 50px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+._50{
+    width: 25%;
+    padding-top: 25px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+._itog{
+    width: 25%;
+    padding-top: 10px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.itog_text{
+    display: flex;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+.p_100{
+  width: 25%;
+}
+.p_75{
+    width: 25%;
+}
+.p_50{
+    width: 25%;
+}
+
+.p_itog{
+    width: 25%;
+}
+
+.textoy_poyon{
+    display: flex;
+    color: white;
+    font-size: 11px;
+}
+/* ------------------------------------ */
+.contener_poluhit{
+   padding-top: 150px;  
+}
+.h1_polu{
+    color: white;
+    text-align: center;
+}
+.comp_usb_flesh{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 90px;
+}
+.comp{
+    text-align: center;
+    color: white;
+    width: 29.5%;
+}
+.p_dolor{
+    font-size: 12px;
+    
+}
+.h5_Только{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* -----------eclips2------------ */
+.contener_prtner{
+    padding-top: 100px; 
+}
+.eclips_prtner{
+ display: flex;
+ align-items: center;
+ padding-bottom: 60px;
+}
+.prtner{
+    padding-left: 40px;  
+   color: white;
+}
+td{
+    
+}
+.border_bootom{
+    border-bottom:1px solid rgba(255, 255, 255, 1) ;
+}
+.border_right{
+  border-right: 1px solid rgba(255, 255, 255, 1);
+}
+table{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+tr td img{
+    width: 170px;
+}
+
+/* -------------------- */
+.contener_derevo{
+  padding-top: 180px;
+}
+.progrdmmi{
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.progrmmi_obu{
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.bolshe{
+    font-size: 12px;
+}
+.mini_contrnt{
+    display: flex;
+    justify-content: center;
+}
+.center_min_derevo{
+    justify-content: center;
+}
+.min_derevo{
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+.right_derevo{
+
+}
+.center_min_derevo{
+  display: flex;
+  width: 60%;
+}
+.left_derevo{
+    text-align: right ;
+
+    border-right: 10px solid #7C6AFA ;
+}
+.min_left_derevo{
+    padding-right: 30px;
+}
+.min_right_derevo{
+   padding-top: 85px;
+    padding-left: 30px;
+}
+.p_Красивая{
+    padding-top: 15px;
+    line-height: 25px;
+}
+._1, ._2{
+    padding-bottom: 90px;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------- */
+.contener_mlimo{
+    padding-bottom: 100px;
+}
+.prepodovoteloi{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-bottom:100px ;
+}
+.mlimo{
+    font-size:40px ;
+    padding-left: 40px;
+}
+.photo_text{
+    text-align: center;
+    color: white;
+}
+.h4_dimity{
+    padding: 40px 0px 15px 0px;
+}
+.p_spets{
+    padding-bottom: 30px;
+}
+.bio_botto{
+    padding: 8px 12px ;
+    border-radius: 50px;
+}
+
+.imen{
+    display: flex;
+    justify-content: space-between;
+}
+.glvni{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.mini_srosim{
+    width: 50%;
+    text-align: center;
+}
+.mini_srosim h1{
+    padding-bottom: 30px;
+}
+.iconcico{
+    display: flex;
+    padding-top: 30px;
+    gap: 20px;
+    
+}
+.icon_center{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+form input{
+    opacity: 0.15;
+  
+    background: white;
+}
